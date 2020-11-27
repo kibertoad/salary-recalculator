@@ -1,0 +1,15 @@
+{
+  "name": "salary-recalculator",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "prettier": "^2.2.0"
+  },
+  "scripts": {
+    "prettier": "prettier --write \"{src,test}/**/*.js",
+    "test": "mocha ./test --recursive"
+  },
+  "type": "module"
+}
